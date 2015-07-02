@@ -20,6 +20,6 @@ while 1:
 	f.close()
 	os.chmod('./ssdfsdfsdfwerwerwersdfsdfsdxcvxvxcvxcvsdfsdfsdfsdfs.sh', 0777)
 	subprocess.call(['./ssdfsdfsdfwerwerwersdfsdfsdxcvxvxcvxcvsdfsdfsdfsdfs.sh'])
-	sys.stdout.write("\r8"+"="*(length-2)+"D")
+	sys.stdout.write("\r8"+"="*(length-3)+"D")
 	sys.stdout.flush()
 	time.sleep(0.1)
